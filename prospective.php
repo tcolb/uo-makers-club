@@ -1,33 +1,44 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <title>UO Makers Club - Prospective</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- bootstrap css -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  <!-- custom css -->
-  <link rel="stylesheet" href="base.css" />
+<?php
+$title = "Prospective";
+include('includes/header.php'); ?>
 
-</head>
+<div class="container-fluid">
+  <div class="customBlock">
+    <h3>Future rojects</h3>
+    <ul class="list-group">
+      <li class="list-group-item">
+        <a target="_blank" href="htt://www.instructables.com/id/Build-your-own-Crude-FM-Radio">DIY FM Radio Crude</a>
+      </li>
+      <li class="list-group-item">
+        <a target="_blank" href="htt://www.instructables.com/id/Make-Your-Own-FM-Radio/">DIY FM Radio Advanced</a>
+      </li>
+      <li class="list-group-item">
+        <a target="_blank" href="htts://learn.adafruit.com/trinket-temerature-humidity-lcd-dislay/the-lcd-dislay">Temerature and Humidity LCD Dislay</a>
+      </li>
+      <li class="list-group-item">
+        <a target="_blank" href="htts://learn.adafruit.com/chilled-drinkibot">Drink Chiller</a>
+      </li>
+      <li class="list-group-item">
+        <a target="_blank" href="htts://learn.adafruit.com/neomatrix-8x8-word-clock">Word Clock</a>
+      </li>
+      <li class="list-group-item">
+        <a target="_blank" href="htts://learn.adafruit.com/ro-trinket-rotary-encoder">Rotary Encoder</a>
+      </li>
+      <li class="list-group-item">
+        <a target="_blank" href="htts://learn.adafruit.com/trinket-bluetooth-alarm-system">Bluetooth Alarm System</a>
+      </li>
+      <li class="list-group-item">
+        <a target="_blank" href="htts://learn.adafruit.com/trinket-owered-rover">3D rinted Autonomous Rover</a>
+      </li>
+      <li class="list-group-item">
+        <a target="_blank" href="htts://learn.adafruit.com/secret-knock-activated-drawer-lock">Secret Knock</a>
+      </li>
+    </ul>
+  </div>
+</div>
 
-<body>
+<script>
+  $("#hi_prosp").addClass("active");
+</script>
 
-  <?php include('includes/header.php') ?>
-
-
-
-  <?php include('includes/footer.php') ?>
-
-
-  <!-- js libraries -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
-  <script>
-    $("#hi_prosp").addClass("active");
-  </script>
-
-</body>
-</html>
+<?php include('includes/footer.php') ?>
