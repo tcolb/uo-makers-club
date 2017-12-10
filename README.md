@@ -1,2 +1,2 @@
 # uo-makers-club
-A website for the UO Makers Club
+A website for the University of Oregon Makers Club using php and bootstrap
