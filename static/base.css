@@ -13,6 +13,7 @@ body, html {
 
 .container-fluid {
   min-height: 100%;
+  padding-left: 2rem;
   margin-bottom: -40px;
   margin-top: 60px;
 }
@@ -27,7 +28,8 @@ body, html {
 .card {
   width: 100%;
   margin: 1rem;
-  margin-bottom: 0;
+  margin-left: 0;
+  margin-top: 0;
 }
 
 .carousel-inner > .carousel-item > img {
@@ -41,6 +43,7 @@ body, html {
 
 .customTitle {
   padding: 1rem;
+  padding-left: 0;
   padding-bottom: 0.5rem;
   font-weight: 300;
 }
@@ -53,5 +56,14 @@ body, html {
 }
 
 .list-group > .list-group-item > a {
-  font-weight: 500;
+  font-weight: 400;
+}
+
+.singleContact {
+  margin-bottom: 0;
+}
+
+.list-group {
+  font-weight: 300;
+  font-size: 1.125rem;
 }
