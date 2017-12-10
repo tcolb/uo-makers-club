@@ -1,6 +1,6 @@
 <?php
 $title = "About";
-include('includes/header.php'); ?>
+include('./includes/header.php'); ?>
 
 <div class="container-fluid" style="padding-left: 1.5rem">
   <!-- about -->
@@ -38,4 +38,4 @@ include('includes/header.php'); ?>
   $("#hi_about").addClass("active");
 </script>
 
-<?php include('includes/footer.php') ?>
+<?php include('./includes/footer.php') ?>

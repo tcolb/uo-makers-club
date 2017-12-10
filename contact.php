@@ -1,6 +1,6 @@
 <?php
 $title = "Contact";
-include('includes/header.php'); ?>
+include('./includes/header.php'); ?>
 
 <div class="container-fluid">
   <div class="row">
@@ -77,4 +77,4 @@ include('includes/header.php'); ?>
   $("#hi_contact").addClass("active");
 </script>
 
-<?php include('includes/footer.php') ?>
+<?php include('./includes/footer.php') ?>

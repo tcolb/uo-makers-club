@@ -1,6 +1,6 @@
 <?php
 $title = "Schedule";
-include('includes/header.php'); ?>
+include('./includes/header.php'); ?>
 
 <div class="container-fluid">
   <h3 class="customTitle" style="">Winter Term, 2018: LEDs</h3>
@@ -123,4 +123,4 @@ include('includes/header.php'); ?>
   $("#hi_schedule").addClass("active");
 </script>
 
-<?php include('includes/footer.php') ?>
+<?php include('./includes/footer.php') ?>

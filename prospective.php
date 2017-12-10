@@ -1,6 +1,6 @@
 <?php
 $title = "Prospective";
-include('includes/header.php'); ?>
+include('./includes/header.php'); ?>
 
 <div class="container-fluid">
   <div class="customBlock">
@@ -40,4 +40,4 @@ include('includes/header.php'); ?>
   $("#hi_prosp").addClass("active");
 </script>
 
-<?php include('includes/footer.php') ?>
+<?php include('./includes/footer.php') ?>
