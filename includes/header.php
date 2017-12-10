@@ -25,16 +25,16 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item" id="hi_about">
-          <a class="nav-link" href="/index.php">About</a>
+          <a class="nav-link" href="./index.php">About</a>
         </li>
         <li class="nav-item" id="hi_schedule">
-          <a class="nav-link" href="/schedule.php">Schedule</a>
+          <a class="nav-link" href="./schedule.php">Schedule</a>
         </li>
         <li class="nav-item" id="hi_prosp">
-          <a class="nav-link" href="/prospective.php">Prospective</a>
+          <a class="nav-link" href="./prospective.php">Prospective</a>
         </li>
         <li class="nav-item" id="hi_contact">
-          <a class="nav-link" href="/contact.php">Contact</a>
+          <a class="nav-link" href="./contact.php">Contact</a>
         </li>
       </ul>
     </div>
