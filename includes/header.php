@@ -17,7 +17,7 @@
 
 <body>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top customText">
-    <a class="navbar-brand" href="/">UO Makers Club</a>
+    <a class="navbar-brand" href="./index.php">UO Makers Club</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
     aria-collapse="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
