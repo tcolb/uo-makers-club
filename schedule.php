@@ -3,6 +3,7 @@ $title = "Schedule";
 include('includes/header.php'); ?>
 
 <div class="container-fluid">
+<div class="customBlock">
 
   <div class="row">
     <div class="card">
@@ -108,7 +109,7 @@ include('includes/header.php'); ?>
     </div>
   </div>
 
-
+</div>
 </div>
 
 <script>

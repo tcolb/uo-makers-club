@@ -6,8 +6,8 @@ include('includes/header.php'); ?>
   <div class="row">
     <div class="col-md-4">
       <div class="customBlock" id="contactable">
-        <h3>Contacts</h3>
-        <ul class="list-group">
+        <h3 class="customTitle">Contacts</h3>
+        <ul class="list-group customText">
           <li class="list-group-item">
             <div>
               <h6>Daniel Su</h6>
@@ -27,8 +27,8 @@ include('includes/header.php'); ?>
     </div>
     <div class="col-md-4">
       <div class="customBlock" id="outreach">
-        <h3>Outreach</h3>
-        <ul class="list-group">
+        <h3 class="customTitle">Outreach</h3>
+        <ul class="list-group customText">
           <li class="list-group-item">
             <div>
               <h6>Daniel Su</h6>
@@ -52,8 +52,8 @@ include('includes/header.php'); ?>
     </div>
     <div class="col-md-4">
       <div class="customBlock" id="funding">
-        <h3>Funding Team</h3>
-        <ul class="list-group">
+        <h3 class="customTitle">Funding Team</h3>
+        <ul class="list-group customText">
           <li class="list-group-item">
             <div>
               <h6>Kaela Schaefer</h6>

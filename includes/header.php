@@ -39,5 +39,10 @@
           <a class="nav-link" href="/contact.php">Contact</a>
         </li>
       </ul>
+      <ul class="navbar-nav navbar-right">
+        <li class="nav-item" id="hi_wishlist">
+          <a class="nav-link" target="_blank" href="http://a.co/9xLeC09">Supplies Wishlist</a>
+        </li>
+      </ul>
     </div>
   </nav>
