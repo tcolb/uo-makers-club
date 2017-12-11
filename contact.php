@@ -8,7 +8,7 @@ include('./includes/header.php'); ?>
     <div class="col-md-8">
       <!-- contactable sources -->
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-12">
         <div class="customBlock" id="contactable">
           <h3 class="customTitle">Contacts</h3>
           <ul class="list-group">
