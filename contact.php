@@ -51,7 +51,7 @@ include('./includes/header.php'); ?>
                 <h6 class="text-muted singleContact">Robotics</h6>
               </li>
               <li class="list-group-item">
-                <h6>Palmer Hodgen</h6>
+                <h6>Palmer Hogen</h6>
                 <h6 class="text-muted singleContact">Other Universities</h6>
               </li>
             </ul>
@@ -69,7 +69,7 @@ include('./includes/header.php'); ?>
                 <h6 class="singleContact">Jamie Zimmerman</h6>
               </li>
               <li class="list-group-item">
-                <h6 class="singleContact">Palmer Hodgen</h6>
+                <h6 class="singleContact">Palmer Hogen</h6>
               </li>
             </ul>
           </div>
