@@ -1,8 +1,14 @@
 <?php
 $title = "About";
-include('./includes/header.php'); ?>
+$header = "indexheader";
+include('./includes/base.php'); ?>
 
 <div class="container-fluid">
+  <div class="row">
+    <div id="logo">
+
+    </div>
+  </div>
   <div class="row">
     <div class="col-1"></div>
     <div class="col-md-10">
