@@ -9,13 +9,10 @@
 
     <ul class="navbar-nav mr-auto">
       <li class="nav-item" id="hi_about">
-        <a class="nav-link" href="./index.php">about</a>
+        <a class="nav-link" href="#about">about</a>
       </li>
       <li class="nav-item" id="hi_sponsors">
-        <a class="nav-link" href="./schedule.php">sponsors</a>
-      </li>
-      <li class="nav-item" id="hi_schedule">
-        <a class="nav-link" href="./schedule.php">schedule</a>
+        <a class="nav-link" href="#sponsors">sponsors</a>
       </li>
       <li class="nav-item" id="hi_contact">
         <a class="nav-link" href="./contact.php">contact</a>
