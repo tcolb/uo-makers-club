@@ -1,19 +1,22 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-custom fixed-top customText" id="headBar">
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbarCollapse"
   aria-collapse="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarCollapse">
-
-    <ul class="navbar-nav mr-auto">
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav">
       <li class="nav-item" id="hi_home">
         <a class="nav-link" href="./index.php">home</a>
       </li>
     </ul>
+  </div>
 
-    <ul class="navbar-nav navbar-right">
+  <a class="navbar-brand mx-auto" href="./index.php">makers club</a>
+
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item" id="hi_schedule">
         <a class="nav-link" href="./schedule.php">schedule</a>
       </li>
@@ -21,7 +24,6 @@
         <a class="nav-link" href="./prospective.php">prospective</a>
       </li>
     </ul>
-
   </div>
 
 </nav>

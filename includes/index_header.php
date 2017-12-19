@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-transparent fixed-top customText" id="headBar">
+<nav class="navbar navbar-expand-md navbar-dark bg-transparent fixed-top customText" id="indexBar">
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
   aria-collapse="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@
       </li>
     </ul>
 
-    <ul class="navbar-nav navbar-right">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item" id="hi_schedule">
         <a class="nav-link" href="./schedule.php">schedule</a>
       </li>
