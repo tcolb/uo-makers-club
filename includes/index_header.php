@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-custom fixed-top customText" id="headBar">
+<nav class="navbar navbar-expand-md navbar-dark bg-transparent fixed-top customText" id="headBar">
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
   aria-collapse="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -8,8 +8,14 @@
   <div class="collapse navbar-collapse" id="navbarCollapse">
 
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item" id="hi_home">
-        <a class="nav-link" href="./index.php">home</a>
+      <li class="nav-item" id="hi_about">
+        <a class="nav-link" href="#about">about</a>
+      </li>
+      <li class="nav-item" id="hi_sponsors">
+        <a class="nav-link" href="#sponsors">sponsors</a>
+      </li>
+      <li class="nav-item" id="hi_contact">
+        <a class="nav-link" href="#contact">contact</a>
       </li>
     </ul>
 

@@ -5,6 +5,7 @@ https://css-tricks.com/couple-takes-sticky-footer/
 
 body, html {
   height: 100%;
+  position: relative;
 }
 
 .push {
@@ -12,8 +13,16 @@ body, html {
 }
 
 .bg-custom {
-  background-color: #65737e;
+  background-color: #343d46;
 }
+
+/* https://stackoverflow.com/questions/21998677/bootstrap-3-navbar-and-collapse-menu-different-background-colors */
+@media only screen and (max-width: 768px) {
+    .bg-transparent .navbar-collapse {
+        border-color: black;
+        background-color: #343d46;
+     }
+ }
 
 .container-fluid {
   margin-bottom: -30px;
@@ -21,8 +30,7 @@ body, html {
 }
 
 #logo {
-  /*background-image: url('../static/images/logo.jpg');*/
-  background-color: #65737e;
+  background-color: #343d46;
   text-align: center;
   padding-top: 7vh;
   width: 100%;
@@ -30,16 +38,19 @@ body, html {
 }
 
 #logoText {
-  margin: 0 auto;
-  display: table;
   font-size: 8em;
   color: #a7adba;
 }
 
+/*https://stackoverflow.com/questions/6410730/how-to-do-a-webkit-css-endless-rotation-animation*/
 #logoGear {
   z-index: 10;
   width: 100px;
   height: 100px;
+  -webkit-animation: infRotate 20s linear infinite;
+  -moz-animation: infRotate 20s linear infinite;
+  -ms-animation: infRotate 20s linear infinite;
+  -o-animation: infRotate 20s linear infinite;
   animation: infRotate 20s linear infinite;
 }
 
@@ -79,6 +90,7 @@ body, html {
   padding-left: 0;
   padding-bottom: 0.5rem;
   font-weight: 300;
+  text-align: center;
 }
 
 .customText {
