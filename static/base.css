@@ -1,6 +1,6 @@
 /*
 
-  body and html block
+  core block
 
 */
 
@@ -19,6 +19,10 @@ body, html {
   background-color: #343d46;
 }
 
+.container-fluid {
+  margin-bottom: -30px;
+  /*margin-top: 60px;*/
+}
 
 
 /*
@@ -27,14 +31,6 @@ body, html {
 
  */
 
-
-/* https://stackoverflow.com/questions/21998677/bootstrap-3-navbar-and-collapse-menu-different-background-colors */
-/* @media only screen and (max-width: 768px) {
-    .bg-transparent .navbar-collapse {
-        border-color: black;
-        background-color: #343d46;
-     }
- } */
 
 /* https://stackoverflow.com/questions/33867603/center-an-element-in-bootstrap-4-navbar/42181069#42181069 */
  .navbar-brand {
@@ -53,22 +49,10 @@ body, html {
 
 /*
 
-  content block
+  logo block
 
 */
 
-
-.container-fluid {
-  margin-bottom: -30px;
-  /*margin-top: 60px;*/
-}
-
-@media only screen and (max-height: 768px) {
-    .bg-transparent .navbar-collapse {
-        border-color: black;
-        background-color: #343d46;
-     }
- }
 
 #logo {
   background-color: #343d46;
@@ -79,8 +63,8 @@ body, html {
 }
 
 #logoText {
-  font-size: 8em;
   color: #a7adba;
+  font-size: 8em;
 }
 
 /*https://stackoverflow.com/questions/6410730/how-to-do-a-webkit-css-endless-rotation-animation*/
@@ -107,6 +91,14 @@ body, html {
     transform: rotate(360deg);
   }
 }
+
+
+/*
+
+  content block
+
+*/
+
 
 .card {
   width: 100%;
@@ -145,4 +137,40 @@ body, html {
 .list-group {
   font-weight: 300;
   font-size: 1.125rem;
+}
+
+
+/*
+
+  reponsive block
+
+*/
+
+
+@media (max-width: 575px) {
+  html, body {
+    font-size: 12px;
+  }
+  #logoText {
+    color: #a7adba;
+    font-size: 4em;
+  }
+
+  #logo {
+    height: 25vh;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  html, body {
+    font-size: 14px;
+  }
+  #logoText {
+    color: #a7adba;
+    font-size: 6em;
+  }
+
+  #logo {
+    height: 55vh;
+  }
 }

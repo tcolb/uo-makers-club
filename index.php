@@ -14,7 +14,7 @@ include('./includes/base.php'); ?>
 
 
   <!-- logo stuff -->
-  <div class="row">
+  <div class="row" style="overflow: hidden;">
     <div id="logo">
       <div id="logoText">makers club</div>
       <img id="logoGear" class="img-fluid" src="./static/images/gear.png"></img>
