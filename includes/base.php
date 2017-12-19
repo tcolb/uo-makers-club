@@ -17,7 +17,7 @@
 </head>
 
 <!-- scrollspy attributes set on body -->
-<body data-spy="scroll" data-target="#headBar" data-offset="80">
+<body data-spy="scroll" data-target="#indexBar" data-offset="80">
 <?php
   include('./includes/' . $header . '.php')
 ?>

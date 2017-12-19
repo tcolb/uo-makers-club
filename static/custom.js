@@ -1,6 +1,6 @@
 $(function() {
   $(document).scroll(function() {
-    var nav = $("#headBar");
+    var nav = $("#indexBar");
     var logo = $("#logo");
 
     // Probably naive but rolling with it
