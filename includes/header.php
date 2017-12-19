@@ -22,6 +22,6 @@
     </ul>
   </div>
 
-  <a class="navbar-brand mx-auto" href="./index.php">makers club</a>
+  <a style="color: #a7adba;" class="navbar-brand mx-auto" href="./index.php">makers club</a>
 
 </nav>

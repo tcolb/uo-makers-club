@@ -30,4 +30,7 @@
 
   </div>
 
+  <!-- brand logo, starts off hidden, rest handled by js -->
+  <a style="display: none; color: #a7adba;" class="navbar-brand mx-auto" href="#logo" id="navLogo">makers club</a>
+
 </nav>
