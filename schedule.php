@@ -1,6 +1,7 @@
 <?php
 $title = "Schedule";
-include('./includes/header.php'); ?>
+$header = "header";
+include('./includes/base.php'); ?>
 
 <div class="container-fluid">
   <div class="row">
