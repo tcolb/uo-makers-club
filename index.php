@@ -5,6 +5,14 @@ include('./includes/base.php'); ?>
 
 <div class="container-fluid">
 
+
+  <!--
+
+    core block
+
+  -->
+
+
   <!-- logo stuff -->
   <div class="row">
     <div id="logo">
@@ -26,6 +34,14 @@ include('./includes/base.php'); ?>
           </p>
         </div>
       </div>
+
+
+      <!--
+
+        info block
+
+      -->
+
 
       <!-- information -->
       <div class="row">
@@ -62,6 +78,14 @@ include('./includes/base.php'); ?>
         </div>
       </div>
 
+
+      <!--
+
+        sponsor block
+
+      -->
+
+
       <!-- sponsor title -->
       <div class="row" id="sponsors" style="padding-top: 3.5rem;">
         <div class="col-12 customBlock">
@@ -85,15 +109,26 @@ include('./includes/base.php'); ?>
         </div>
       </div>
 
+
+      <!--
+
+        contact block
+
+      -->
+
+
+      <!-- contact title -->
       <div class="row" id="contact" style="padding-top: 3.5rem;">
         <div class="col-12 customBlock">
           <h3 class="customTitle">- Contact us -</h3>
         </div>
       </div>
-
+      <!-- contactable  -->
       <div class="row">
-        <div class="col-12">
+        <div class="col-1"></div>
+        <div class="col-10">
           <div class="card-deck">
+
             <div class="card">
               <div class="card-body">
                 <h4 class="card-title">Daniel Su</h4>
@@ -101,6 +136,7 @@ include('./includes/base.php'); ?>
                 <a href="mailto:dsu@uoregon.edu">dsu@uoregon.edu</a>
               </div>
             </div>
+
             <div class="card">
               <div class="card-body">
                 <h4 class="card-title">Kaela Schaefer</h4>
@@ -109,6 +145,7 @@ include('./includes/base.php'); ?>
                 <a href="mailto:kaelas@uoregon.edu">kaelas@uoregon.edu</a>
               </div>
             </div>
+
             <div class="card">
               <div class="card-body">
                 <h4 class="card-title">Michal Young</h4>
@@ -116,8 +153,10 @@ include('./includes/base.php'); ?>
                 <a href="mailto:michal@cs.uoregon.edu">michal@cs.uoregon.edu</a>
               </div>
             </div>
+
           </div>
         </div>
+        <div class="col-1"></div>
       </div>
 
 
