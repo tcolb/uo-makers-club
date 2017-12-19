@@ -5,7 +5,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarCollapse">
+  <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
 
     <ul class="navbar-nav mr-auto">
       <li class="nav-item" id="hi_about">

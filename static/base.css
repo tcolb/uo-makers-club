@@ -29,12 +29,12 @@ body, html {
 
 
 /* https://stackoverflow.com/questions/21998677/bootstrap-3-navbar-and-collapse-menu-different-background-colors */
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     .bg-transparent .navbar-collapse {
         border-color: black;
         background-color: #343d46;
      }
- }
+ } */
 
 /* https://stackoverflow.com/questions/33867603/center-an-element-in-bootstrap-4-navbar/42181069#42181069 */
  .navbar-brand {
@@ -62,6 +62,13 @@ body, html {
   margin-bottom: -30px;
   /*margin-top: 60px;*/
 }
+
+@media only screen and (max-height: 768px) {
+    .bg-transparent .navbar-collapse {
+        border-color: black;
+        background-color: #343d46;
+     }
+ }
 
 #logo {
   background-color: #343d46;
