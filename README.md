@@ -1,10 +1,12 @@
 # uo-makers-club
-A website for the University of Oregon Makers Club using php and bootstrap
+a website for the university of oregon makers club using php and bootstrap
 
-Currently uses basic bootstrap elements
+currently uses basic bootstrap elements
+
 
 current todo:
-- make index logo responsive (gear and logo text resizing)
+- ~~make index logo responsive (gear and logo text resizing)~~
+- ~~migrate to ems intead of vhs~~
 - make index_header stick to top until scroll past logo
 - cleanup redundant html
 - finish sponsor cards
