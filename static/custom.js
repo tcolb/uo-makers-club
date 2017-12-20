@@ -8,7 +8,7 @@ $(function() {
     // logic
     // Probably naive but rolling with it, TODO could update to use ScrollSpy?
 
-    if ($(this).scrollTop() > logo.height() + nav.height()) {
+    if ($(this).scrollTop() > (logo.height() + nav.height())) {
       fadeNav.fadeIn(200);
     } else {
       fadeNav.fadeOut(200);
