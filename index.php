@@ -46,7 +46,7 @@ include('./includes/base.php'); ?>
       <!-- information -->
       <div class="row">
         <!-- general -->
-        <div class="col-4">
+        <div class="col-md-4">
           <div class="customBlock">
             <h4 class="customTitle">Location</h4>
             <p class="customText">
@@ -57,7 +57,7 @@ include('./includes/base.php'); ?>
           </div>
         </div>
         <!-- skill set -->
-        <div class="col-4 customBlock">
+        <div class="col-md-4 customBlock">
           <h4 class="customTitle">Desired Skill Set</h4>
           <ul class="customText" style="padding-left: 2.5em">
             <li>Basic Electrical Engineering</li>
@@ -69,7 +69,7 @@ include('./includes/base.php'); ?>
           </ul>
         </div>
         <!-- tbd -->
-        <div class="col-4 customBlock">
+        <div class="col-md-4 customBlock">
           <h4 class="customTitle">Location</h4>
           <ul class="customText" style="padding-left: 2.5em">
             <li>To be determined</li>
