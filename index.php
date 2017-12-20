@@ -28,7 +28,7 @@ include('./includes/base.php'); ?>
 
       <!-- about -->
       <div class="row" id="about">
-        <div class="customBlock" style="padding-top: 4rem">
+        <div class="customBlock" style="padding-top: 3em">
           <p class="customText">
             Welcome to the Makers Club at the University of Oregon. Our goal is to strengthen our coding skills while expanding our knowledge about hobbyist electronics design and creation, computer hardware, and prototyping.
           </p>
@@ -59,7 +59,7 @@ include('./includes/base.php'); ?>
         <!-- skill set -->
         <div class="col-4 customBlock">
           <h4 class="customTitle">Desired Skill Set</h4>
-          <ul class="customText" style="padding-left: 2.5rem">
+          <ul class="customText" style="padding-left: 2.5em">
             <li>Basic Electrical Engineering</li>
             <li>Hardware Knowledge</li>
             <li>Soldering</li>
@@ -71,7 +71,7 @@ include('./includes/base.php'); ?>
         <!-- tbd -->
         <div class="col-4 customBlock">
           <h4 class="customTitle">Location</h4>
-          <ul class="customText" style="padding-left: 2.5rem">
+          <ul class="customText" style="padding-left: 2.5em">
             <li>To be determined</li>
             <li>Meeting time, to be determined</li>
           </ul>
@@ -87,7 +87,7 @@ include('./includes/base.php'); ?>
 
 
       <!-- sponsor title -->
-      <div class="row" id="sponsors" style="padding-top: 3.5rem;">
+      <div class="row" id="sponsors" style="padding-top: 3.5em;">
         <div class="col-12 customBlock">
           <h3 class="customTitle">- Thank you to our sponsors -</h3>
         </div>
@@ -118,7 +118,7 @@ include('./includes/base.php'); ?>
 
 
       <!-- contact title -->
-      <div class="row" id="contact" style="padding-top: 3.5rem;">
+      <div class="row" id="contact" style="padding-top: 3.5em;">
         <div class="col-12 customBlock">
           <h3 class="customTitle">- Contact us -</h3>
         </div>

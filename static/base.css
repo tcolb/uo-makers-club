@@ -57,9 +57,9 @@ body, html {
 #logo {
   background-color: #343d46;
   text-align: center;
-  padding-top: 7vh;
+  padding-top: 4em;
   width: 100%;
-  height: 70vh;
+  height: 28em;
 }
 
 #logoText {
@@ -102,28 +102,28 @@ body, html {
 
 .card {
   width: 100%;
-  margin: 1rem;
+  margin: 1em;
   margin-left: 0;
   margin-top: 0;
 }
 
 .customBlock {
-  padding: 1rem;
+  padding: 1em;
 }
 
 .customTitle {
-  padding: 1rem;
+  padding: 1em;
   padding-left: 0;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.5em;
   font-weight: 300;
   text-align: center;
 }
 
 .customText {
   font-weight: 300;
-  font-size: 1.125rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  font-size: 1.125em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .list-group > .list-group-item > a {
@@ -136,7 +136,7 @@ body, html {
 
 .list-group {
   font-weight: 300;
-  font-size: 1.125rem;
+  font-size: 1.125em;
 }
 
 
@@ -157,7 +157,7 @@ body, html {
   }
 
   #logo {
-    height: 25vh;
+    height: 13em;
   }
 }
 
@@ -171,6 +171,6 @@ body, html {
   }
 
   #logo {
-    height: 55vh;
+    height: 24em;
   }
 }
