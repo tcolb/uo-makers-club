@@ -3,7 +3,7 @@ $title = "Prospective";
 $header = "header";
 include('./includes/base.php'); ?>
 
-<div class="container-fluid" style="">
+<div class="container-fluid" style="min-height: 100vh">
   <div class="row">
     <div class="col-1"></div>
     <div class="col-md-10">
