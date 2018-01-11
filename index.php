@@ -61,9 +61,9 @@ include('./includes/base.php'); ?>
         <div class="col-md-4">
           <div class="customBlock">
             <h4 class="customTitle">Want to join?</h4>
-            <p class="customText">
-              Club is open to students of any level </br>
-            </p>
+            <ul class="customText" style="padding-left: 2.5em">
+              <li>Club is open to students of any level</li>
+            </ul>
           </div>
         </div>
         <!-- location -->
@@ -71,7 +71,6 @@ include('./includes/base.php'); ?>
           <h4 class="customTitle">Location</h4>
           <ul class="customText" style="padding-left: 2.5em">
             <li>To be determined</li>
-            <li>Meeting time, to be determined</li>
           </ul>
         </div>
       </div>
