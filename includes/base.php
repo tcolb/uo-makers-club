@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>UO Makers Club - <?php echo $title?></title>
+  <title>Makers Club - <?php echo $title?></title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- bootstrap css -->

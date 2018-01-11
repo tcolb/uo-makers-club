@@ -3,12 +3,12 @@ $title = "Schedule";
 $header = "header";
 include('./includes/base.php'); ?>
 
-<div class="container-fluid">
+<div class="container-fluid" style="">
   <div class="row">
     <div class="col-1"></div>
     <div class="col-md-10">
       <div class="customBlock">
-        <h3 class="customTitle" style="">Winter Term, 2018: LEDs</h3>
+        <h3 class="customTitle" style="padding-top: 60px">winter term 2018: LEDs</h3>
         <!-- week 1 card -->
         <div class="row">
           <div class="card">

@@ -3,12 +3,12 @@ $title = "Prospective";
 $header = "header";
 include('./includes/base.php'); ?>
 
-<div class="container-fluid">
+<div class="container-fluid" style="">
   <div class="row">
     <div class="col-1"></div>
     <div class="col-md-10">
       <div class="customBlock">
-        <h3 class="customTitle">Future projects</h3>
+        <h3 class="customTitle" style="padding-top: 60px">future projects</h3>
         <ul class="list-group">
           <li class="list-group-item">
             <p><b>DIY FM Radio</b></p>
