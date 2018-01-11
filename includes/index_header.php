@@ -11,9 +11,11 @@
       <li class="nav-item" id="hi_about">
         <a class="nav-link" href="#about">about</a>
       </li>
+      <!-- UNCOMMENT WHEN SPONSORS ARE DETERMINED
       <li class="nav-item" id="hi_sponsors">
         <a class="nav-link" href="#sponsors">sponsors</a>
       </li>
+      -->
       <li class="nav-item" id="hi_contact">
         <a class="nav-link" href="#contact">contact</a>
       </li>

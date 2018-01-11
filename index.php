@@ -1,5 +1,5 @@
 <?php
-$title = "About";
+$title = "Index";
 $header = "index_header";
 include('./includes/base.php'); ?>
 
@@ -45,17 +45,6 @@ include('./includes/base.php'); ?>
 
       <!-- information -->
       <div class="row">
-        <!-- general -->
-        <div class="col-md-4">
-          <div class="customBlock">
-            <h4 class="customTitle">Location</h4>
-            <p class="customText">
-              Club is open to students of any level </br>
-              Meeting Location TBD </br>
-              Meeting Time TBD </br>
-            </p>
-          </div>
-        </div>
         <!-- skill set -->
         <div class="col-md-4 customBlock">
           <h4 class="customTitle">Desired Skill Set</h4>
@@ -68,7 +57,16 @@ include('./includes/base.php'); ?>
             <li>Make Stuff!</li>
           </ul>
         </div>
-        <!-- tbd -->
+        <!-- general -->
+        <div class="col-md-4">
+          <div class="customBlock">
+            <h4 class="customTitle">Want to join?</h4>
+            <p class="customText">
+              Club is open to students of any level </br>
+            </p>
+          </div>
+        </div>
+        <!-- location -->
         <div class="col-md-4 customBlock">
           <h4 class="customTitle">Location</h4>
           <ul class="customText" style="padding-left: 2.5em">
@@ -86,29 +84,32 @@ include('./includes/base.php'); ?>
       -->
 
 
-      <!-- sponsor title -->
+      <!-- UNCOMMENT WHEN SPONSORS ARE DETERMINED
       <div class="row" id="sponsors" style="padding-top: 3.5em;">
         <div class="col-12 customBlock">
           <h3 class="customTitle">- Thank you to our sponsors -</h3>
         </div>
       </div>
 
-      <!-- sponsors -->
       <div class="row customBlock">
         <div class="col-3 customTitle">
-          SPONSOR
+          <img src="./static/images/shapes.svg" style="height: 10em; width: 10em;"></img>
+          <h6 class="customTitle">Sponsor 1</h6>
         </div>
         <div class="col-3 customTitle">
-          SPONSOR
+          <img src="./static/images/shapes.svg" style="height: 10em; width: 10em;"></img>
+          <h6 class="customTitle">Sponsor 2</h6>
         </div>
         <div class="col-3 customTitle">
-          SPONSOR
+          <img src="./static/images/shapes.svg" style="height: 10em; width: 10em;"></img>
+          <h6 class="customTitle">Sponsor 3</h6>
         </div>
         <div class="col-3 customTitle">
-          SPONSOR
+          <img src="./static/images/shapes.svg" style="height: 10em; width: 10em;"></img>
+          <h6 class="customTitle">Sponsor 4</h6>
         </div>
       </div>
-
+      -->
 
       <!--
 
@@ -135,6 +136,7 @@ include('./includes/base.php'); ?>
                   <div class="card-body">
                     <h4 class="card-title">Daniel Su</h4>
                     <h5 class="card-title text-muted">Outreach</h5>
+                    <hr/>
                     <a href="mailto:dsu@uoregon.edu">dsu@uoregon.edu</a>
                   </div>
                 </div>
@@ -152,6 +154,7 @@ include('./includes/base.php'); ?>
                   <div class="card-body">
                     <h4 class="card-title">Michal Young</h4>
                     <h5 class="card-title text-muted">Supporting Faculty Member</h5>
+                    <hr/>
                     <a href="mailto:michal@cs.uoregon.edu">michal@cs.uoregon.edu</a>
                   </div>
                 </div>
