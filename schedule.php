@@ -8,7 +8,8 @@ include('./includes/base.php'); ?>
     <div class="col-1"></div>
     <div class="col-md-10">
       <div class="customBlock">
-        <h3 class="customTitle" style="padding-top: 60px">winter term 2018: LEDs</h3>
+        <h3 class="customTitle" style="padding-top: 60px">Winter term 2018: LEDs</h3>
+        <h5 class="customTitle text-muted" style="padding-top: 0px"> This schedule is subject to change</h5>
         <!-- week 1 card -->
         <div class="row">
           <div class="card">
