@@ -57,7 +57,7 @@ body, html {
 #logo {
   background-color: #343d46;
   text-align: center;
-  padding-top: 3em;
+  padding-top: 2em;
   width: 100%;
   height: 26em;
 }
@@ -157,7 +157,7 @@ body, html {
   }
   #logo {
     height: 10em;
-    padding-top: 0em;
+    padding-top: .2em;
   }
 }
 
@@ -170,6 +170,6 @@ body, html {
     font-size: 6em;
   }
   #logo {
-    height: 24em;
+    height: 22em;
   }
 }
