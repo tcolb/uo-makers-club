@@ -1,6 +1,7 @@
 <?php
 $title = "Schedule";
 $header = "header";
+$curweek = "4";
 include('./includes/base.php'); ?>
 
 <div class="container-fluid" style="min-height: 100vh">
@@ -11,6 +12,7 @@ include('./includes/base.php'); ?>
       <div class="customBlock">
         <h3 class="customTitle" style="padding-top: 60px">Winter term 2018: LEDs</h3>
         <h5 class="customTitle text-muted" style="padding-top: 0px"> This schedule is subject to change</h5>
+        <h5 class="customTitle text-muted"><a href="#cardW<?php echo $curweek ?>">Currently on week <?php echo $curweek ?></a></h5>
 
         <!-- week 1 card -->
         <div class="row">
@@ -55,10 +57,10 @@ include('./includes/base.php'); ?>
         </div>
 
         <!-- week 4 card -->
-        <div class="row">
+        <div class="row" id="cardW4">
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">Week 4</h4>
+              <h4 class="card-title">Week 4 - Current</h4>
               <h6 class="card-subtitle mb-2 text-muted">
                 Project 1</h6>
               <p class="card-text">
