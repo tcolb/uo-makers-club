@@ -45,9 +45,7 @@ include('./includes/base.php'); ?>
 
   -->
 
-  <div class="container">
-    <?php include('./includes/index/info.php'); ?>
-  </div>
+  <?php include('./includes/index/info.php'); ?>
 
 
   <!--
