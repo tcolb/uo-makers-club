@@ -37,7 +37,7 @@ include('./includes/base.php'); ?>
               <p class="card-text">
                 Practice on Solderable Breadboards (soldering terminology, safety precautions, etc) </br>
               </p>
-              <?php $disp_meeting = "meeting2"; $carousel_name = "Meeting2"; include("./includes/carousel.php"); ?>
+              <?php $disp_meeting = "meeting2"; include("./includes/carousel.php"); ?>
             </div>
           </div>
         </div>

@@ -1,14 +1,14 @@
 <div class="row">
 <div class="col-12">
 
-<div id="<?php echo $carousel_name ?>Carousel" class="carousel slide w-50" data-ride="carousel">
+<div id="<?php echo $disp_meeting ?>Carousel" class="carousel slide w-50" data-ride="carousel">
   <div class="carousel-inner">
 
   <?php
     $class_active = true;
     $dirname = "./static/images/meetings/" . $disp_meeting . "/";
     $imgs = glob($dirname . "*.JPG");
-    foreach($imgs as $img) {
+    foreach($imgs as $img) { 
     ?>
     <div class="carousel-item <?php if($class_active == true) { echo 'active' ; $class_active = false; } ?>">
       <img class="d-block w-100" src="<? echo $img; ?>">
@@ -16,11 +16,11 @@
   <?php } ?>
 
   </div>
-<a class="carousel-control-prev" href="#<?php echo $carousel_name ?>Carousel" role="button" data-slide="prev">
+<a class="carousel-control-prev" href="#<?php echo $disp_meeting ?>Carousel" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-<a class="carousel-control-next" href="#<?php echo $carousel_name ?>Carousel" role="button" data-slide="next">
+<a class="carousel-control-next" href="#<?php echo $disp_meeting ?>Carousel" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
