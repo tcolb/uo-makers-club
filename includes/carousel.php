@@ -8,10 +8,10 @@
     $class_active = true;
     $dirname = "./static/images/meetings/" . $disp_meeting . "/";
     $imgs = glob($dirname . "*.JPG");
-    foreach($imgs as $img) { 
+    foreach($imgs as $img) {
     ?>
     <div class="carousel-item <?php if($class_active == true) { echo 'active' ; $class_active = false; } ?>">
-      <img class="d-block w-100" src="<? echo $img; ?>">
+      <img class="d-block w-100" src="<?php echo $img; ?>">
     </div>
   <?php } ?>
 
