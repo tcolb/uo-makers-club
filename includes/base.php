@@ -19,5 +19,5 @@
 <!-- scrollspy attributes set on body -->
 <body data-spy="scroll" data-target="#indexFade" data-offset="70">
 <?php
-  include('./includes/' . $header . '.php')
+  include('./includes/' . $header . '.php');
 ?>

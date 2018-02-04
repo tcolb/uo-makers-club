@@ -7,9 +7,11 @@ include('./includes/base.php'); ?>
   <div class="row">
     <div class="col-1"></div>
     <div class="col-md-10">
+
       <div class="customBlock">
         <h3 class="customTitle" style="padding-top: 60px">Winter term 2018: LEDs</h3>
         <h5 class="customTitle text-muted" style="padding-top: 0px"> This schedule is subject to change</h5>
+
         <!-- week 1 card -->
         <div class="row">
           <div class="card">
@@ -22,31 +24,36 @@ include('./includes/base.php'); ?>
             </div>
           </div>
         </div>
+
         <!-- week 2 card -->
         <div class="row">
           <div class="card">
             <div class="card-body">
               <h4 class="card-title">Week 2</h4>
               <h6 class="card-subtitle mb-2 text-muted">
-                Safety Training at the Maker Space II </h6>
+                Soldering Basics </h6>
               <p class="card-text">
+                Practice on Solderable Breadboards (soldering terminology, safety precautions, etc) </br>
               </p>
+              <?php $disp_meeting = "meeting2"; $carousel_name = "Meeting2"; include("./includes/carousel.php"); ?>
             </div>
           </div>
         </div>
+
         <!-- week 3 card -->
         <div class="row">
           <div class="card">
             <div class="card-body">
               <h4 class="card-title">Week 3</h4>
               <h6 class="card-subtitle mb-2 text-muted">
-                Soldering basics </h6>
+                Leadership Meeting </h6>
               <p class="card-text">
-                Practice on Solderable Breadboards (soldering terminology, safety precautions, etc)
+                Short meeting for leadership
               </p>
             </div>
           </div>
         </div>
+
         <!-- week 4 card -->
         <div class="row">
           <div class="card">
@@ -62,6 +69,7 @@ include('./includes/base.php'); ?>
             </div>
           </div>
         </div>
+
         <!-- week 5 card -->
         <div class="row">
           <div class="card">
@@ -75,7 +83,8 @@ include('./includes/base.php'); ?>
             </div>
           </div>
         </div>
-        <!-- week 6 card -->
+
+        <!-- week 5 card -->
         <div class="row">
           <div class="card">
             <div class="card-body">
@@ -93,7 +102,8 @@ include('./includes/base.php'); ?>
             </div>
           </div>
         </div>
-        <!-- week 7 card -->
+
+        <!-- week 6 card -->
         <div class="row">
           <div class="card">
             <div class="card-body">
@@ -106,7 +116,8 @@ include('./includes/base.php'); ?>
             </div>
           </div>
         </div>
-        <!-- week 8 card -->
+
+        <!-- week 7 card -->
         <div class="row">
           <div class="card">
             <div class="card-body">
@@ -118,6 +129,7 @@ include('./includes/base.php'); ?>
             </div>
           </div>
         </div>
+
       </div>
     </div>
     <div class="col-1"></div>

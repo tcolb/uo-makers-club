@@ -24,6 +24,11 @@ body, html {
   /*margin-top: 60px;*/
 }
 
+.carousel {
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+}
+
 
 /*
 
