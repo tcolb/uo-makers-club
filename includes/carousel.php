@@ -1,4 +1,4 @@
-<div id="<?php echo $disp_meeting ?>Carousel" class="carousel slide" data-ride="carousel" >
+<div id="<?php echo $disp_meeting ?>Carousel" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
 
   <?php
