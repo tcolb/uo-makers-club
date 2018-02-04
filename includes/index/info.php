@@ -1,6 +1,11 @@
 <!-- information -->
 <div class="row">
 
+  <div class="col-1"></div>
+
+  <div class="col-10">
+  <div class="row">
+
   <!-- skill set -->
   <div class="col-md-4 customBlock">
     <h4 class="customTitle"><b>Desired Skill Set</b></h4>
@@ -37,4 +42,10 @@
       <li>Meetings are on Thursdays from 5:30PM to 7:00PM</li>
     </ul>
   </div>
+
+  </div>
+  </div>
+
+  <div class="col-1"></div>
+
 </div>
