@@ -1,7 +1,4 @@
-<div class="row">
-<div class="col-12">
-
-<div id="<?php echo $disp_meeting ?>Carousel" class="carousel slide w-50" data-ride="carousel">
+<div id="<?php echo $disp_meeting ?>Carousel" class="carousel slide" data-ride="carousel" >
   <div class="carousel-inner">
 
   <?php
@@ -26,8 +23,6 @@
   </a>
 </div>
 
-</div>
-</div>
 
 <!-- doesn't work yet
 <div class="modal fade modal-fullscreen force-fullscreen" id="#<?php echo $carousel_name ?>Modal" tabindex="-1" role="dialog" aria-labelledby="<?php echo $carousel_name ?>Modal" aria-hidden="true">
