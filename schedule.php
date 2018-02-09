@@ -1,7 +1,7 @@
 <?php
 $title = "Schedule";
 $header = "header";
-$curweek = "4";
+$curweek = "5";
 include('./includes/base.php'); ?>
 
 <div class="container-fluid" style="min-height: 100vh">
@@ -18,9 +18,9 @@ include('./includes/base.php'); ?>
         <div class="row">
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">Week 1</h4>
+              <h4 class="card-title">Week 2</h4>
               <h6 class="card-subtitle mb-2 text-muted">
-                Safety Training at the Maker Space I</h6>
+                Safety Training at the Maker Space</h6>
               <p class="card-text">
               </p>
             </div>
@@ -31,7 +31,7 @@ include('./includes/base.php'); ?>
         <div class="row">
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">Week 2</h4>
+              <h4 class="card-title">Week 3</h4>
               <h6 class="card-subtitle mb-2 text-muted">
                 Soldering Basics </h6>
               <p class="card-text">
@@ -46,7 +46,7 @@ include('./includes/base.php'); ?>
         <div class="row">
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">Week 3</h4>
+              <h4 class="card-title">Week 4</h4>
               <h6 class="card-subtitle mb-2 text-muted">
                 Leadership Meeting </h6>
               <p class="card-text">
@@ -57,10 +57,10 @@ include('./includes/base.php'); ?>
         </div>
 
         <!-- week 4 card -->
-        <div class="row" id="cardW4">
+        <div class="row" id="cardW5">
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">Week 4 - Current</h4>
+              <h4 class="card-title">Week 5 - Current</h4>
               <h6 class="card-subtitle mb-2 text-muted">
                 Project 1</h6>
               <p class="card-text">
@@ -76,7 +76,7 @@ include('./includes/base.php'); ?>
         <div class="row">
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">Week 5</h4>
+              <h4 class="card-title">Week 6</h4>
               <h6 class="card-subtitle mb-2 text-muted">
                 A Speaker (Maybe from the physics department)</h6>
               <p class="card-text">
@@ -90,7 +90,7 @@ include('./includes/base.php'); ?>
         <div class="row">
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">Week 6</h4>
+              <h4 class="card-title">Week 7</h4>
               <h6 class="card-subtitle mb-2 text-muted">
                 Begin Project 2: Microcontroller Basics and Begin Project 2 Planning and Soldering</h6>
               <p class="card-text">
@@ -109,7 +109,7 @@ include('./includes/base.php'); ?>
         <div class="row">
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">Week 7</h4>
+              <h4 class="card-title">Week 8</h4>
               <h6 class="card-subtitle mb-2 text-muted">
                 Continue Project 2</h6>
               <p class="card-text">
@@ -123,7 +123,7 @@ include('./includes/base.php'); ?>
         <div class="row">
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">Week 8</h4>
+              <h4 class="card-title">Week 9</h4>
               <h6 class="card-subtitle mb-2 text-muted">
                 Finish Project 2 </h6>
               <p class="card-text">
