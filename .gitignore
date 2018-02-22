@@ -1,2 +1,5 @@
+*.jpg
+*.JPG
+.jpg*
 .JPG*
 .DS_Store
