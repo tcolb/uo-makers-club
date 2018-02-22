@@ -1,7 +1,7 @@
 <?php
 $title = "Schedule";
 $header = "header";
-$curweek = "5";
+$curweek = "7";
 include('./includes/base.php'); ?>
 
 <div class="container-fluid" style="min-height: 100vh">
@@ -60,34 +60,35 @@ include('./includes/base.php'); ?>
         <div class="row" id="cardW5">
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">Week 5 - Current</h4>
+              <h4 class="card-title">Week 5</h4>
               <h6 class="card-subtitle mb-2 text-muted">
                 Project 1</h6>
               <p class="card-text">
                 2 LEDS and 2 resistors in a circuit with a battery pack </br>
                 Project Link: <a target="_blank" href="https://learn.adafruit.com/lets-put-leds-in-things/basic-recipe">Adafruit</a> </br>
                 Supplies Wishlist: <a target="_blank" href="http://a.co/5mMYCAR">Amazon</a>
-
+              </p>
+              <?php $disp_meeting = "meeting3"; include("./includes/carousel.php"); ?>
             </div>
           </div>
         </div>
 
-        <!-- week 5 card -->
-        <div class="row">
+        <!-- week 6 card -->
+        <div class="row" id="cardW6">
           <div class="card">
             <div class="card-body">
               <h4 class="card-title">Week 6</h4>
               <h6 class="card-subtitle mb-2 text-muted">
-                A Speaker (Maybe from the physics department)</h6>
+                Finish Project 1</h6>
               <p class="card-text">
-                 Focused on electricity and circuits basics/terminology
-              </p>
+                Begin Making Containers For Project 2
+	      </p>
             </div>
           </div>
         </div>
 
-        <!-- week 5 card -->
-        <div class="row">
+        <!-- week 7 card -->
+        <div class="row" id="cardW7">
           <div class="card">
             <div class="card-body">
               <h4 class="card-title">Week 7</h4>

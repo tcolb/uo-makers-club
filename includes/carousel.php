@@ -4,7 +4,7 @@
   <?php
     $class_active = true;
     $dirname = "./static/images/meetings/" . $disp_meeting . "/";
-    $imgs = glob($dirname . "*.JPG");
+    $imgs = glob($dirname . "*.jpg");
     foreach($imgs as $img) {
     ?>
     <div class="carousel-item <?php if($class_active == true) { echo 'active' ; $class_active = false; } ?>">
